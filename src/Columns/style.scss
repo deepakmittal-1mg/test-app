@@ -1,0 +1,29 @@
+.columns-container {
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    left: 0;
+    top: 0;
+}
+
+.columns-div {
+    height: 100vh;
+    opacity: 0.15;
+    background-color: pink;
+}
+
+.grid-button {
+    z-index: 100;
+    border-radius: 4px;
+    color: white;
+    background-color: darkcyan;
+    border: 1px solid darkcyan;
+    padding: 8px 4px;
+    font-size: 16px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 60px;
+    margin: 4px;
+    float: right;
+}
