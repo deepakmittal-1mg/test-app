@@ -1,7 +1,7 @@
 import React from 'react';
-import Columns from './Columns';
 import './css/index.scss'
-import FlexSystem from './FlexSystem'
+
+import Columns from './Columns';
 import HomePage from './HomePage';
 
 function App() {

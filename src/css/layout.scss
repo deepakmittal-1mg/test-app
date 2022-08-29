@@ -1,7 +1,8 @@
 $gutter: 12px;
-$col: 84px;
 $space: 24px;
 
+// 288px for 12 columns with 24px space and 48px for 24pxpx of padding on each side = 288+48= 336px
+$col: calc(calc(100vw - 336px) / 12);
 $col-1: $col;
 $col-2: calc($col * 2 + $space);
 $col-3: calc($col * 3 + $space * 2);
@@ -14,6 +15,43 @@ $col-9: calc($col * 9 + $space * 8);
 $col-10: calc($col * 10 + $space * 9);
 $col-11: calc($col * 11 + $space * 10);
 $col-12: calc($col * 12 + $space * 11);
+
+.max-col-1 {
+    width: calc($col-1 + 24px);
+}
+.max-col-2 {
+    width: calc($col-2 + 24px);
+}
+.max-col-3 {
+    width: calc($col-3 + 24px);
+}
+.max-col-4 {
+    width: calc($col-4 + 24px);
+}
+.max-col-5 {
+    width: calc($col-5 + 24px);
+}
+.max-col-6 {
+    width: calc($col-6 + 24px);
+}
+.max-col-7 {
+    width: calc($col-7 + 24px);
+}
+.max-col-8 {
+    width: calc($col-8 + 24px);
+}
+.max-col-9 {
+    width: calc($col-9 + 24px);
+}
+.max-col-10 {
+    width: calc($col-10 + 24px);
+}
+.max-col-11 {
+    width: calc($col-11 + 24px);
+}
+.max-col-12 {
+    width: calc($col-12 + 24px);
+}
 
 .col-1 {
     width: $col-1;
@@ -87,7 +125,6 @@ $col-12: calc($col * 12 + $space * 11);
     margin-right: $gutter;
 }
 
-
 .container-fluid {
     width: 100%;
     padding-left: 12px;
@@ -105,7 +142,18 @@ $col-12: calc($col * 12 + $space * 11);
 }
 
 .page-container {
-    width: 100%;
-    padding-left: calc(calc(100vw - 1296px) / 2);
-    padding-right: calc(calc(100vw - 1296px) / 2);
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.full-width-container {
+    margin-left: -24px !important;
+    margin-right: -24px !important;
+}
+
+.full-width-padded-container {
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-left: -24px !important;
+    margin-right: -24px !important;
 }
