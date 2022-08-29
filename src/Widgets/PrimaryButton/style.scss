@@ -1,0 +1,43 @@
+@import '../../css/variables.scss';
+
+.button {
+    width: 100%;
+    background-color: $action-primary;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    color: $container-background;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0 $gutter;
+}
+
+.disabled {
+    background-color: $action-disabled;
+    cursor: none;
+}
+
+.outlined {
+    background-color: $transparent;
+    color: $action-primary;
+    border: solid 1px $action-primary;
+}
+
+.disabledOutline {
+    color: $action-disabled;
+    border: solid 1px $action-disabled;
+    cursor: none;
+}
+
+.imageSpan {
+    margin-right: makespace(1);
+}
+
+.btnText {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

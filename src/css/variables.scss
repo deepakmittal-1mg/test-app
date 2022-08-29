@@ -1,0 +1,166 @@
+//COLOURS -------------------------------
+// Actions
+$action-primary: #ff6f61;
+$action-auxiliary: #8a2422;
+$action-disabled: #e0e0e0;
+$action-disabled-text: #a9a9a9;
+$transparent: transparent;
+
+// Backgrounds
+$container-background: #fff;
+$divider: #dbdbdb;
+$highlighted-background: #fef7ef;
+$secondary-background: #f0f0f0;
+
+$gutter: 12px;
+// Information (Text)
+$information-primary: #3b3b3b;
+$information-secondary: #767676;
+$information-tertiary: #a9a9a9;
+
+// States
+$success: #208376;
+$success-background: #e7f7e5;
+
+$caution: #d5410b;
+$caution-background: #ffe0cc;
+
+$error: #e51f47;
+$error-background: #ffd9e1;
+
+// Bottom Sheet
+
+$grey-backdrop: rgba(43, 43, 43, 0.48);
+
+// Basic
+$transition-duration: 0.2s !default;
+$transition-animation: ease !default;
+$border-radius: 4px !default;
+$border-radius-sm: 2px !default;
+
+// TYPOGRAPHY ---------------------------
+//Line Height
+$line-height-base: 1.5 !default;
+$line-height-x-small: 18px !default;
+
+//Font Sizes
+$font-size-hero: 48 !default;
+$font-size-l1: 30 !default;
+$font-size-l2: 24 !default;
+$font-size-l3: 20 !default;
+$font-size-l4: 18 !default;
+$font-size-l5: 16 !default;
+$font-size-body: 14 !default;
+$font-size-small: 12 !default;
+$font-size-x-small: 11 !default;
+
+//Font Weight
+$font-weight-semi-bold: 600 !default;
+$font-weight-medium: 500 !default;
+$font-weight-regular: 400 !default;
+
+$font-family-base: "Poppins" !default;
+
+$tablet-width: 768px;
+$desktop-width: 960px;
+$large-width: 1280px;
+
+// Spacers
+$base-space: 8px !default;
+
+// Sidenav
+$sidenav-list-separator: #eaeaea !default; // NOT IN DOC, REPLACE ASAP
+$sidenav-text-light: #9e9e9e !default; // NOT IN DOC, REPLACE ASAP
+$sidenav-row-highlight-bg: #f7f7f7 !default; // NOT IN DOC, REPLACE ASAP
+
+// Footer
+$footer-bg-alternate: rgba(
+    224,
+    224,
+    224,
+    0.2
+) !default; // Figure out a way to use colours with alpha without breaking general colour guidelines
+
+// Dialogs (Not modals for now)
+$dialog-border-radius: $border-radius !default;
+$dialog-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5) !default;
+$dialog-overlay-bg: rgba(0, 0, 0, 0.75) !default; // NOT IN DOC, REPLACE ASAP
+
+// Form Elements
+$input-box-height: 40px !default;
+$input-border-radius: $border-radius !default;
+$input-border-width: 1px !default;
+$input-border-focused-width: 2px !default;
+$input-border-difference: calc(#{$input-border-focused-width} - #{$input-border-width}) !default;
+$input-textarea-min-height: 85px !default;
+$input-max-width: 100% !default;
+
+// Dropdown
+$dropdown-max-rows: 5 !default;
+$dropdown-helper-text-color: rgba(0, 0, 0, 0.54) !default; // NOT IN DOC, REPLACE ASAP
+$dropdown-height: $input-box-height !default;
+$dropdown-border-radius: $input-border-radius !default;
+$dropdown-border-width: $input-border-width !default;
+$dropdown-border-focused-width: $input-border-focused-width !default;
+$dropdown-border-difference: calc(#{$dropdown-border-focused-width} - #{$dropdown-border-width}) !default;
+
+// ELEVATION --------------------------------------------------------------
+//These are to be used in box-shadow css property of the component/div you want to provide elevation to
+$elevation-shadow-l1: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 4px 4px 0 rgba(0, 0, 0, 0.08);
+$elevation-shadow-l2: 0 0 8px 0 rgba(0, 0, 0, 0.08), 0 8px 8px 0 rgba(0, 0, 0, 0.08);
+$elevation-shadow-l3: 0 0 16px 0 rgba(0, 0, 0, 0.08), 0 16px 16px 0 rgba(0, 0, 0, 0.08);
+
+//These are to be used in z-index css property of the component/div you want to provide elevation to
+$elevation-index-l1: 4;
+$elevation-index-l2: 8;
+$elevation-index-l3: 16;
+$elevation-index-l4: 24;
+
+// Header
+$header-height: 56px !default;
+$header-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.15) !default;
+$header-search-height: 40px !default;
+$header-search-border-radius: 4px !default;
+$header-location-bar-height: 18px !default;
+
+// Pages
+//QuantitySelector
+$quantity-chip-color: #616161 !default; // NOT IN DOC, REPLACE ASAP
+
+//SelectorChip
+$selector-chip-border-radius: 4px;
+$selector-chip-border: 1px;
+$selector-chip-border-selected: 1px;
+
+// Accordion
+$border-width: 1px;
+$accordion-transition-duration: 0.4s;
+
+// CheckBox
+$border-width: 1px;
+$border-width-selected: 2px;
+$checkmark-width: 14px;
+$checkmark-height: 8px;
+
+// Radio
+$border-width: 1px;
+$border-width-selected: 2px;
+$radio-width: 12px;
+$radio-height: 12px;
+
+// Search Page
+$search-input-height: 56px !default;
+$search-item-divider-width: 1px !default;
+$search-item-divider-color: $action-disabled !default;
+
+// User Feedback
+$user-feedback-bar-height: 8px !default;
+$user-feedback-bar-radius: 4px !default;
+$user-feedback-legend-height: 21px !default;
+$user-feedback-legend-width: 21px !default;
+
+// Separator
+$separator-height-xs: 1px !default;
+$separator-height-sm: 4px !default;
+$separator-height-md: 8px !default;
+$separator-height-lg: 16px !default;

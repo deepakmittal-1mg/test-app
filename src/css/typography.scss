@@ -1,0 +1,236 @@
+@function remy($pxsize) {
+    @return calc($pxsize/$font-size-body) + rem;
+}
+
+html {
+    font-size: $font-size-body + px;
+    line-height: $line-height-base;
+}
+
+
+h1 {
+    font-size: remy($font-size-l3);
+    font-weight: $font-weight-regular;
+    line-height: $line-height-base;
+    margin: 0;
+}
+
+h2 {
+    font-size: remy($font-size-l4);
+    font-weight: $font-weight-semi-bold;
+    line-height: $line-height-base;
+    margin: 0;
+}
+
+h3 {
+    font-size: remy($font-size-l5);
+    font-weight: $font-weight-medium;
+    line-height: $line-height-base;
+    margin: 0;
+}
+
+p {
+    font-size: remy($font-size-body);
+    line-height: $line-height-base;
+    margin: 0;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+.heroSemiBold {
+    font-size: remy($font-size-hero);
+    font-weight: $font-weight-semi-bold;
+    line-height: $line-height-base;
+}
+
+.heroMedium {
+    font-size: remy($font-size-hero);
+    font-weight: $font-weight-medium;
+    line-height: $line-height-base;
+}
+
+.heroRegular {
+    font-size: remy($font-size-hero);
+    font-weight: $font-weight-regular;
+    line-height: $line-height-base;
+}
+
+.l1SemiBold {
+    font-size: remy($font-size-l1);
+    font-weight: $font-weight-semi-bold;
+    line-height: $line-height-base;
+}
+
+.l1Medium {
+    font-size: remy($font-size-l1);
+    font-weight: $font-weight-medium;
+    line-height: $line-height-base;
+}
+
+.l1Regular {
+    font-size: remy($font-size-l1);
+    font-weight: $font-weight-regular;
+    line-height: $line-height-base;
+}
+
+.l2SemiBold {
+    font-size: remy($font-size-l2);
+    font-weight: $font-weight-semi-bold;
+    line-height: $line-height-base;
+}
+
+.l2Medium {
+    font-size: remy($font-size-l2);
+    font-weight: $font-weight-medium;
+    line-height: $line-height-base;
+}
+
+.l2Regular {
+    font-size: remy($font-size-l2);
+    font-weight: $font-weight-regular;
+    line-height: $line-height-base;
+}
+
+.l3SemiBold {
+    font-size: remy($font-size-l3);
+    font-weight: $font-weight-semi-bold;
+    line-height: $line-height-base;
+}
+
+.l3Medium {
+    font-size: remy($font-size-l3);
+    font-weight: $font-weight-medium;
+    line-height: $line-height-base;
+}
+
+.l3Regular {
+    font-size: remy($font-size-l3);
+    font-weight: $font-weight-regular;
+    line-height: $line-height-base;
+}
+
+.l4SemiBold {
+    font-size: remy($font-size-l4);
+    font-weight: $font-weight-semi-bold;
+    line-height: $line-height-base;
+}
+
+.l4Medium {
+    font-size: remy($font-size-l4);
+    font-weight: $font-weight-medium;
+    line-height: $line-height-base;
+}
+
+.l4Regular {
+    font-size: remy($font-size-l4);
+    font-weight: $font-weight-regular;
+    line-height: $line-height-base;
+}
+
+.l5SemiBold {
+    font-size: remy($font-size-l5);
+    font-weight: $font-weight-semi-bold;
+    line-height: $line-height-base;
+}
+
+.l5Medium {
+    font-size: remy($font-size-l5);
+    font-weight: $font-weight-medium;
+    line-height: $line-height-base;
+}
+
+.l5Regular {
+    font-size: remy($font-size-l5);
+    font-weight: $font-weight-regular;
+    line-height: $line-height-base;
+}
+
+.bodySemiBold {
+    font-size: remy($font-size-body);
+    font-weight: $font-weight-semi-bold;
+    line-height: $line-height-base;
+}
+
+.bodyMedium {
+    font-size: remy($font-size-body);
+    font-weight: $font-weight-medium;
+    line-height: $line-height-base;
+}
+
+.bodyRegular {
+    font-size: remy($font-size-body);
+    font-weight: $font-weight-regular;
+    line-height: $line-height-base;
+}
+
+.smallSemiBold {
+    font-size: remy($font-size-small);
+    font-weight: $font-weight-semi-bold;
+    line-height: $line-height-base;
+}
+
+.smallMedium {
+    font-size: remy($font-size-small);
+    font-weight: $font-weight-medium;
+    line-height: $line-height-base;
+}
+
+.smallRegular {
+    font-size: remy($font-size-small);
+    font-weight: $font-weight-regular;
+    line-height: $line-height-base;
+}
+
+.xSmallSemiBold {
+    font-size: remy($font-size-x-small);
+    font-weight: $font-weight-semi-bold;
+    line-height: $line-height-x-small;
+}
+
+.xSmallMedium {
+    font-size: remy($font-size-x-small);
+    font-weight: $font-weight-medium;
+    line-height: $line-height-x-small;
+}
+
+.xSmallRegular {
+    font-size: remy($font-size-x-small);
+    font-weight: $font-weight-regular;
+    line-height: $line-height-x-small;
+}
+
+.textPrimary {
+    color: $information-primary;
+}
+
+.textSecondary {
+    color: $information-secondary;
+}
+
+.textTertiary {
+    color: $information-tertiary;
+}
+
+//EXCEPTIONS Please fix it in DLS 2.0
+.errorColor {
+    background-color: $error-background;
+    color: $error;
+}
+
+.cautionColor {
+    background-color: $caution-background;
+    color: $caution;
+}
+
+.successColor {
+    background-color: $success-background;
+    color: $success;
+}
+
+.noAnchorColor {
+    color: $information-primary;
+}
+
+.breakWord {
+    word-break: break-word;
+}

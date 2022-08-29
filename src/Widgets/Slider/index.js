@@ -23,7 +23,7 @@ function Slider() {
             <div className='full-width-padded-container marginTop-40'>
                 <div className="flex">
                     <div><div className="col-1"/></div>
-                    <div className="custom-col-10 slider-container">
+                    <div className="max-col-10 slider-container">
                     {
                         sliderData.map(cardData => (
                             <div style={{ height: '100%' }}>

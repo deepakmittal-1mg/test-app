@@ -136,6 +136,11 @@ $col-12: calc($col * 12 + $space * 11);
     padding: 16px 12px;
 }
 
+.widget-container {
+    padding-top: 12px;
+    padding-bottom: 24px;
+}
+
 .gutter-only {
     margin-left: $gutter;
     margin-right: $gutter;
@@ -156,4 +161,9 @@ $col-12: calc($col * 12 + $space * 11);
     padding-right: 24px;
     margin-left: -24px !important;
     margin-right: -24px !important;
+}
+
+
+.box-shadow {
+    box-shadow: 0 0 7px 0 rgb(0 0 0 / 14%);
 }
