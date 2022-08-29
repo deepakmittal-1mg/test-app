@@ -1,0 +1,111 @@
+$gutter: 12px;
+$col: 84px;
+$space: 24px;
+
+$col-1: $col;
+$col-2: calc($col * 2 + $space);
+$col-3: calc($col * 3 + $space * 2);
+$col-4: calc($col * 4 + $space * 3);
+$col-5: calc($col * 5 + $space * 4);
+$col-6: calc($col * 6 + $space * 5);
+$col-7: calc($col * 7 + $space * 6);
+$col-8: calc($col * 8 + $space * 7);
+$col-9: calc($col * 9 + $space * 8);
+$col-10: calc($col * 10 + $space * 9);
+$col-11: calc($col * 11 + $space * 10);
+$col-12: calc($col * 12 + $space * 11);
+
+.col-1 {
+    width: $col-1;
+    margin-left: $gutter;
+    margin-right: $gutter;
+}
+
+.col-2 {
+    width: $col-2;
+    margin-left: $gutter;
+    margin-right: $gutter;
+}
+
+.col-3 {
+    width: $col-3;
+    margin-left: $gutter;
+    margin-right: $gutter;
+}
+
+.col-4 {
+    width: $col-4;
+    margin-left: $gutter;
+    margin-right: $gutter;
+}
+
+.col-5 {
+    width: $col-5;
+    margin-left: $gutter;
+    margin-right: $gutter;
+}
+
+.col-6 {
+    width: $col-6;
+    margin-left: $gutter;
+    margin-right: $gutter;
+}
+
+.col-7 {
+    width: $col-7;
+    margin-left: $gutter;
+    margin-right: $gutter;
+}
+
+.col-8 {
+    width: $col-8;
+    margin-left: $gutter;
+    margin-right: $gutter;
+}
+
+.col-9 {
+    width: $col-9;
+    margin-left: $gutter;
+    margin-right: $gutter;
+}
+
+.col-10 {
+    width: $col-10;
+    margin-left: $gutter;
+    margin-right: $gutter;
+}
+
+.col-11 {
+    width: $col-11;
+    margin-left: $gutter;
+    margin-right: $gutter;
+}
+
+.col-12 {
+    width: $col-12;
+    margin-left: $gutter;
+    margin-right: $gutter;
+}
+
+
+.container-fluid {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.container-fluid-padded {
+    width: 100%;
+    padding: 16px 12px;
+}
+
+.gutter-only {
+    margin-left: $gutter;
+    margin-right: $gutter;
+}
+
+.page-container {
+    width: 100%;
+    padding-left: calc(calc(100vw - 1296px) / 2);
+    padding-right: calc(calc(100vw - 1296px) / 2);
+}

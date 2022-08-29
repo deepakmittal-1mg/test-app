@@ -1,0 +1,98 @@
+// MARGINS: These margins are to be used inside a widget while arranging components ---------------
+
+.marginTop-4 {
+    margin-top: $gutter;
+}
+
+.marginTop-8 {
+    margin-top: 8px;
+}
+
+.marginTop-16 {
+    margin-top: 16px;
+}
+
+.marginTop-24 {
+    margin-top: 24px;
+}
+
+.marginTop-40 {
+    margin-top: 40px;
+}
+
+.marginTop-48 {
+    margin-top: 48px;
+}
+
+.marginTop-96 {
+    margin-top: 96px;
+}
+
+.marginBottom-24 {
+    margin-bottom: 24px;
+}
+
+.marginBoth-4 {
+    margin-top: $gutter;
+    margin-bottom: $gutter;
+}
+
+.marginBoth-8 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.marginBoth-16 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.marginBoth-24 {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.marginBoth-40 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.marginBoth-48 {
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.justifyCenter {
+    justify-content: center;
+}
+
+.justifyBetween {
+    justify-content: space-between;
+}
+
+.justifyAround {
+    justify-content: space-around;
+}
+
+.middleDivider {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.insetDivider {
+    margin-left: 8px;
+    margin-right: 8px;
+}

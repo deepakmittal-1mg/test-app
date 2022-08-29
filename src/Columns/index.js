@@ -5,7 +5,7 @@ function Columns() {
     const [showGrid, setShowGrid] = useState(true)
 
     const renderColoumns = () => {
-        return [...Array(24).keys()].map(() => <div className="columns-div col-1" />)
+        return [...Array(12).keys()].map(() => <div className="columns-div col-1" />)
     }
 
     return (

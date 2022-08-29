@@ -1,13 +1,14 @@
 import React from 'react';
 import Columns from './Columns';
-import FlexSystem24 from './FlexSystem24'
-import './layout24.scss'
+import './css/index.scss'
+import FlexSystem from './FlexSystem'
+import HomePage from './HomePage';
 
 function App() {
   return (
     <React.Fragment>
-      <FlexSystem24 />
       <Columns />
+      <HomePage/>
     </React.Fragment>
   )
 }
