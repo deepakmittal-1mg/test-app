@@ -8,9 +8,11 @@ import ProductPage from './ProductPage'
 function App() {
   return (
     <React.Fragment>
-      <Columns />
-      {/* <HomePage/> */}
-      <ProductPage/>
+      <div className='app-container'>
+        <Columns />
+        {/* <HomePage/> */}
+        <ProductPage />
+      </div>
     </React.Fragment>
   )
 }

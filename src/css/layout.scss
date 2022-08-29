@@ -2,7 +2,7 @@ $gutter: 12px;
 $space: 24px;
 
 // 288px for 12 columns with 24px space and 48px for 24pxpx of padding on each side = 288+48= 336px
-$col: calc(calc(100vw - 336px) / 12);
+$col: calc(calc(min(100vw, 1440px) - 336px) / 12);
 $col-1: $col;
 $col-2: calc($col * 2 + $space);
 $col-3: calc($col * 3 + $space * 2);
@@ -125,6 +125,11 @@ $col-12: calc($col * 12 + $space * 11);
     margin-right: $gutter;
 }
 
+.app-container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 .container-fluid {
     width: 100%;
     padding-left: 12px;
@@ -162,7 +167,6 @@ $col-12: calc($col * 12 + $space * 11);
     margin-left: -24px !important;
     margin-right: -24px !important;
 }
-
 
 .box-shadow {
     box-shadow: 0 0 7px 0 rgb(0 0 0 / 14%);
