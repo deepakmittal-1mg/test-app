@@ -10,7 +10,7 @@ function App() {
     <React.Fragment>
       <div className='app-container'>
         <Columns />
-        {/* <HomePage/> */}
+        <HomePage/>
         <ProductPage />
       </div>
     </React.Fragment>
