@@ -28,7 +28,7 @@ function Slider() {
                         sliderData.map(cardData => (
                             <div style={{ height: '100%' }}>
                                 <div className='col-2 card-container'>
-                                    <img className='marginTop-16' src={cardData.imageUrl} />
+                                    <img style={{width:'100%'}} className='marginTop-16' src={cardData.imageUrl} />
                                     <div className='marginTop-16 textCenter textPrimary'>{cardData.text}</div>
                                 </div>
                             </div>
