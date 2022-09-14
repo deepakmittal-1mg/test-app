@@ -4,10 +4,10 @@ import Slider from '../Widgets/Slider'
 
 function HomePage() {
     return (
-        <div className='page-container'>
+        <React.Fragment>
             <Banner />
             <Slider />
-        </div>
+        </React.Fragment>
     )
 }
 

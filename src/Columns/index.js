@@ -13,7 +13,7 @@ function Columns() {
 
             {
                 showGrid && (
-                    <div className='page-container columns-container'>
+                    <div className='columns-container'>
                         {renderColoumns()}
                     </div>
                 )

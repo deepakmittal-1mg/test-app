@@ -6,7 +6,7 @@ import PrimaryButton from '../Widgets/PrimaryButton/PrimaryButton'
 
 function ProductPage() {
     return (
-        <div className='page-container marginBoth-24'>
+        <div className='container-fluid marginBoth-24'>
 
             <div className='flex'>
                 <Overview />

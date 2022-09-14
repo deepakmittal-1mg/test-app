@@ -5,7 +5,7 @@ import { sliderData } from '../data'
 function Slider() {
     return (
         <Fragment>
-            <div className='full-width-padded-container marginTop-40'>
+            <div className='container-fluid widget-container marginTop-24'>
                 <div className="max-col-12 slider-container">
                     {
                         sliderData.map(cardData => (
@@ -20,7 +20,7 @@ function Slider() {
                 </div>
             </div>
             
-            <div className='full-width-padded-container marginTop-40'>
+            <div className='container-fluid widget-container marginTop-24'>
                 <div className="flex">
                     <div><div className="col-1"/></div>
                     <div className="max-col-10 slider-container">
